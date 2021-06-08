@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="masterautod.View.Potjagivanie"
+             Title="Подтягивание">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="15">
+                <Label Text="Подтягивание" FontSize="Medium" VerticalOptions="Center" HorizontalOptions="Center" />
+                <Image Source="pod.gif" IsAnimationPlaying="true"/>
+                <Label Text="Не позволяйте своему телу раскачиваться во время подтягивания, учитесь это контролировать."/>
+                <Label Text="Выполняйте упражнение плавно и не спеша, без рывков и резких спусков."/>
+                <Label Text="Старайтесь тянуться подбородком вверх."/>
+                <Label Text="Дышите ровно, следите за своим дыханием."/>
+                <Label Text="Держитесь за турник крепко!"/>
+            </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="masterautod.View.sport"
+             Title="Sport">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="LightGray">
+            <Label Text="Добро пожаловать в мое приложение! Здесь ты найдешь разные упражнения для тренировок." HorizontalTextAlignment="Center" BackgroundColor="LightYellow" FontSize="Body" TextColor="Black"/>
+            <Label Text="Спорт полезен для организма. Это знают все с детства, но лишь немногие посвящают этому занятию свою жизнь. Для того, чтобы оставаться здоровым, красивым и стройным, чувствовать себя превосходно, не обязательно заниматься спортом профессионально. Любая физическая активность – это возможность улучшить свое самочувствие, а также скорректировать параметры тела. Все о спорте и правильном питании попробуем рассмотреть в данной статье."></Label>
+            <Image Source="zal.png" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
